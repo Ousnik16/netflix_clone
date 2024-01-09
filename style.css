@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+.main {
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 70vh;
+    position: relative;
+    padding: 156px;
+    margin: -118px;
+}
+
+.main .box {
+    height: 107vh;
+    width: 88%;
+    opacity: 0.59;
+    background-color: black;
+    top: 80px;
+    position: absolute;
+    left: 73px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: auto;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+    margin: 1px;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    border-radius: 5px
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    display: flex;
+    height: calc(100%-62px);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    padding: 22px;
+    margin: 16px;
+}
+.hero> :first-child{
+    font-family: 'Martel',sans-serif;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+    padding: 10px;
+}
+.hero>:nth-child(2){
+    font-family: 'Martel',sans-serif;
+    font-family: 'Poppins',sans-serif
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.hero>:nth-child(3){
+    font-family: 'Martel',sans-serif;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding: 22px;
+}.separation{
+    margin: 34px;
+    background-color: gray;
+    height: 6px;
+    display: flex;
+    position: relative;
+    right: 76px;
+    width: 1353px;
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.main input{
+    padding: 7px 101px 8px 14px;
+    font-weight: 500;
+    font-size: 12px;
+    color: white;
+    border-radius: 4px;
+    background-color:rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+.btn{
+    padding: 2px 19px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border: 1px solid white;
+    cursor: pointer;
+    margin: 9px;
+}
+.btn-red{
+    background-color: red;
+    padding: 3px 24px;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 124vw;
+    margin: 129px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and(max-width: 500px){
+    .first{
+        flex-wrap: wrap;
+    }
+}
+.secImg img{
+    width: 36vw;
+    margin: -114px;
+    padding: 32px;
+    position: absolute;
+    z-index: 1;
+    right: 320px;
+}
+.secImg video{
+    position: relative;
+    top: -7px;
+    right: -136px;
+    width: 75%;
+}
+section.first >div{
+    display: flex;
+    flex-direction: column;
+}
+section.first> div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+section.first> div :nth-child(2){
+    font-size: 24px;
+}
+section.first> div :nth-child(3){
+    font-size: 24px;
+}
+section.first> div :nth-child(4){
+    font-size: 24px;
+}
+section.second >div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+section.second> div :nth-child(2){
+    font-size: 24px;
+    display: flex;
+}
+section.second> div :nth-child(3){
+    font-size: 24px;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    max-width: 117vw;
+    margin: 2px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    max-width: 117vw;
+    margin: 2px;
+    color: white;
+    justify-content: center;
+    align-items: center
+}
+section.third >div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+    display: flex;
+}
+section.third >div :nth-child(2){
+    font-size: 24px;
+    display: flex;
+    position: relative;
+}
+section.third >div :nth-child(3){
+    font-size: 24px;
+    display: flex;
+    position: relative;
+    top: -9px;
+    right: 4px;
+}
+.secImg3 img{
+    width: 35vw;
+    margin: -124px;
+    z-index: 1;
+    right: -142px;
+    position: relative;
+    top: 83px;
+}
+.secImg3 video{
+    right: -100px;
+    width: 63%;
+    top: -128px;
+}
+.fourth{
+    display: flex;
+    justify-content: center;
+    max-width: 117vw;
+    margin: 2px;
+    color: white;
+    justify-content: center;
+    align-items: center
+}
+section.fourth >div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+    display: block;
+}
+section.fourth >div :nth-child(2){
+    font-size: 24px;
+}
+section.fourth >div :nth-child(3){
+    font-size: 24px;
+}
+section.fourth >div :nth-child(4){
+    font-size: 24px;
+}
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+}
+.faq{
+    background-color:black;
+    color: white;
+    font-size: 24px;
+}
+.faqbox svg{ 
+    filter: invert(1);
+}
+.faqbox{
+    transition: all 0.8s ease-out;
+    display: flex;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 77vw;
+    margin: 11px auto;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.faqbox:hover{
+    background-color: gray;
+}
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+}
+footer .questions{
+    padding: 15px 0px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    padding: 34px;
+}
+.footer-item{
+    display:flex ;
+    flex-direction: column;
+    gap: 23px;
+}
+.footer a{
+    font-size: 14px;
+    color: white;
+}
